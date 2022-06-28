@@ -183,14 +183,70 @@ footer {
   text-align: center;
   justify-content: space-around;
   background-color: var(--bg-header);
-  color: rgb(17, 174, 174);
   font-size: 15px;
 }
 
-@media screen and (max-width: 768px) {
+footer h2 {
+  color: rgb(17, 174, 174);
+}
+
+/* @media screen and (max-width: 768px) {
   body,
   nav {
     flex-direction: column;
   }
+} */
+
+@media screen and (max-width: 980px) {
+  .navbar {
+    width: 100%;
+    display: block;
+    background-color: lightgray;
+    text-align: center;
+  }
+
+  .logo {
+    display: block;
+    background-color: lightgoldenrodyellow;
+    color: blue;
+  }
+
+  .nav-item {
+    display: block;
+    background-color: lightsalmon;
+    color: maroon;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero {
+    display: block;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  section h2 {
+    margin: 0;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .col-left,
+  .col-right {
+    width: 100%;
+    display: block;
+    padding: 5px 0 0 0;
+  }
+
+  footer h2, footer div {
+    text-align: center;
+    width: 100%;
+  }
 }
+
 
