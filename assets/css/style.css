@@ -10,6 +10,13 @@
 }
 
 /*-- navbar style --*/
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
 nav {
   width: 100%;
   background-color: var(--bg-header);
@@ -114,7 +121,6 @@ section h2 {
   padding: 20px;
   border-left: 3.5px solid var(--text-bg);
   border-radius: 3px;
-  opacity: 0.7;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -188,6 +194,13 @@ footer h2 {
 }
 
 @media screen and (max-width: 980px) {
+  header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+  }
+
   .navbar {
     width: 100%;
     display: block;
@@ -233,7 +246,9 @@ footer h2 {
     padding: 5px 10px;
   }
 
-  footer h2, footer div {
+  footer {
+    display: block;
+    width: 100%;
     text-align: center;
     width: 100%;
   }
