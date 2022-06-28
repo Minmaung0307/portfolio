@@ -15,9 +15,9 @@ nav {
   background-color: var(--bg-header);
   color: var(--text-bg);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  
+  padding: 0 20px 0 20px;
 }
 
 nav a {
@@ -55,6 +55,7 @@ nav a:hover {
   background-size: cover;
   background-position: center;
   display: flex;
+  justify-content: space-between;
 }
 
 .hero img {
@@ -77,16 +78,12 @@ nav a:hover {
 }
 
 section h2 {
-  position: relative;
   background-color: var(--text-bg);
-  width: 300px;
-  height: 55px;
-  text-align: center;
-  padding-top: 10px;
-  margin-left: 65%;
+  padding: 10px;
   margin-top: 130px;
+  margin-right: 20px;
   color: var(--bg-header);
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .row {
@@ -189,13 +186,6 @@ footer {
 footer h2 {
   color: rgb(17, 174, 174);
 }
-
-/* @media screen and (max-width: 768px) {
-  body,
-  nav {
-    flex-direction: column;
-  }
-} */
 
 @media screen and (max-width: 980px) {
   .navbar {
