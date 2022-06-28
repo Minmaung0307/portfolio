@@ -193,12 +193,13 @@ footer h2 {
     display: block;
     background-color: lightgray;
     text-align: center;
+    padding: 0;
   }
 
   .logo {
     display: block;
-    background-color: lightgoldenrodyellow;
-    color: blue;
+    background-color: var(--bg-header);
+    color: var(--text-bg);
   }
 
   .nav-item {
@@ -216,7 +217,6 @@ footer h2 {
   .hero {
     display: block;
     align-items: center;
-    margin: 5px;
     padding: 10px;
   }
 
@@ -230,7 +230,7 @@ footer h2 {
   .col-right {
     width: 100%;
     display: block;
-    padding: 5px 0 0 0;
+    padding: 5px 10px;
   }
 
   footer h2, footer div {

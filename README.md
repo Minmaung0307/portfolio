@@ -5,3 +5,7 @@
 # Added corresponding navigation links properly.
 
 # Added image zoom with mouse hover.
+
+# Update @media query
+
+# Update header and hero section
